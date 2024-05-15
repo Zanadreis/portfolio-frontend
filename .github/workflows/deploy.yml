@@ -31,8 +31,8 @@ jobs:
           username: ${{ secrets.EC2_USER }}
           key: ${{ secrets.EC2_PRIVATE_KEY }}
           script: |
-            docker stop zanadreis/portifolio-frontend || true
-            docker rm zanadreis/portifolio-frontend
+            docker stop portifolio-frontend || true
+            docker rm portifolio-frontend
             docker rmi zanadreis/portifolio-frontend
             docker pull zanadreis/portifolio-frontend
-            docker run -d --name zanadreis/portifolio-frontend --env-file ${{ secrets.PATH_TO_ENV }} -p 3000:3000 zanadreis/portifolio-frontend
+            docker run -d --name portifolio-frontend --env-file ${{ secrets.PATH_TO_ENV }} -p 3000:3000 zanadreis/portifolio-frontend
