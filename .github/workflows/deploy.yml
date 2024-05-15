@@ -5,9 +5,8 @@ on:
     branches: [ main ]
 
 jobs:
-  build-test-deploy:
+  build-image:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -24,7 +23,9 @@ jobs:
           context: .
           push: true
           tags: zanadreis/portifolio-frontend
-
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy
         uses: appleboy/ssh-action@master
         with:
