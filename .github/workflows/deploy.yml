@@ -23,9 +23,7 @@ jobs:
           context: .
           push: true
           tags: zanadreis/portifolio-frontend
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
+          
       - name: Deploy
         uses: appleboy/ssh-action@master
         with:
