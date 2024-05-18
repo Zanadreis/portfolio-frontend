@@ -7,6 +7,14 @@
     justify-content: space-between;
 }
 
+.fade-right {
+    background-image: linear-gradient(to right, #8D8DFF, #b7b9ba);
+}
+
+.fade-left {
+    background-image: linear-gradient(to left, #8D8DFF, #b7b9ba);
+}
+
 .toggle-btn {
     /* background-color: #b7b9ba; */
     /* background-color: #4c19d8; */
