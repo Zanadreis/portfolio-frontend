@@ -1,6 +1,12 @@
 {
     "hero": {
-        "title": "Hello!",
+        "title": "Welcome to my portfolio!",
+        "text": "My name is Matheus Zanadreis (Matthew Zanadreis) and I developed this portfolio as a brief presentation and small sample of my technical knowledge. Don't just stay around! Check out my API and get in touch!",
+        "contact_btn": "Contact me",
         "api_btn": "Check the API"
+    },
+    "features": {
+        "title": "About me",
+        "text": "The following features are available in the API:"
     }
 }

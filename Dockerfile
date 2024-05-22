@@ -1,5 +1,5 @@
 # Dockerfile
-FROM node:18.18-alpine as build
+FROM node:18.18-alpine AS build
 
 WORKDIR /app
 COPY package*.json ./
@@ -7,7 +7,7 @@ RUN npm install
 COPY . .
 RUN npm run build
 
-FROM node:18.18-alpine as runtime
+FROM node:18.18-alpine AS runtime
 
 WORKDIR /app
 COPY package*.json ./
