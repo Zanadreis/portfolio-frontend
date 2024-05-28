@@ -77,3 +77,6 @@
 .form-radio {
     @apply text-purple-600;
 }
+.image-fade {
+    opacity: 0.9;
+}
