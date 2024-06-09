@@ -19,6 +19,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
   build-image:
+    needs: sonarcloud
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code

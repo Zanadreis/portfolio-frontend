@@ -7,19 +7,19 @@
     },
     "features": {
         "title": "Sobre mim:",
-        "text": "Um pequeno resumo do meu historico e habilidades profissionais",
+        "text": "Um pequeno resumo do meu histórico e habilidades profissionais",
         "star_tittle": "Experiencia solida",
-        "star": "Mais de 7 anos de experiencia na area de tecnologia com uma grande variedade de contextos e satisfazendo diversas necessidades de negócios.",
+        "star": "Mais de 7 anos de experiência na área de tecnologia, atuando com uma grande variedade de contextos e satisfazendo diversas necessidades de negócios.",
         "list_tittle": "Desenvolvimento",
-        "list": "Focado em backend (JavaScript e PHP). Testes, documentação, diversos disign patterns e codigo de alta manutenabilidade",
+        "list": "Proficiência em backend (JavaScript e PHP). Testes, documentação, diversos design patterns e código de alta manutenabilidade.",
         "web_tittle": "Arquitetura",
-        "web": "Arquiteto de aplicações de alta concorrência e disponibilidade, que atuam hoje no mercado, utilizando microsserviços.",
+        "web": "Arquiteto de aplicações de alta concorrência e disponibilidade, atualmente em uso no mercado, utilizando microsserviços.",
         "head_tittle": "Conhecimento",
-        "head": "De diversos stacks, tecnologia e frameworks e uma base de conhecimentos diversificados para atender as necessidades de negócios.",
-        "like_tittle": "LIKE Instant Features",
-        "like": "NÃO SEI O QUE ESCREVER AQUI",
-        "chat_tittle": "Liderança",
-        "chat": "Líder tecnico atuante em projetos que demandavam comunicação hábil entre time de desenvolvimento, clientes e fornecedores."
+        "head": "de diversos stacks, tecnologias e frameworks, além de uma base de conhecimentos diversificados para atender às necessidades de negócios.",
+        "like_tittle": "Liderança",
+        "like": "Líder técnico atuante em projetos que demandavam comunicação hábil entre equipes de desenvolvimento, clientes e fornecedores.",
+        "chat_tittle": "Cloud",
+        "chat": "Experiência com sistemas distribuídos e ambientes cloud-native, com integração contínua e garantia de qualidade."
     },
     "zigzag": {
         "green_text": "green text",

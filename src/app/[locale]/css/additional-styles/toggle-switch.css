@@ -19,7 +19,6 @@
     width: 70px;
     height: 35px;
     left: 5px;
-    transition: background-color 0.1s ease, border-color 0.2ease;
     box-shadow: 1px 1px 10px rgba(0,0,0, 0.748);
     display: flex;
     position: absolute;
