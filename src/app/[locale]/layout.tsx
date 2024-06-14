@@ -28,8 +28,8 @@ export default async function RootLayout({
   children,
   params: {locale}
 }: {
-  children: React.ReactNode;
-  params: {locale: string};
+  readonly children: React.ReactNode;
+  readonly params: {locale: string};
 }) {
   const messages = await getMessages();
 
