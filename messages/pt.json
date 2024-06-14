@@ -22,8 +22,32 @@
         "chat": "Experiência com sistemas distribuídos e ambientes cloud-native, com integração contínua e garantia de qualidade."
     },
     "zigzag": {
-        "green_text": "green text",
-        "tittle": "One product, unlimited solutions T",
-        "subtittle": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla."
+        "green_text": "Portfolio",
+        "tittle": "Sobre a arquitetura e o desenvolvimento desta aplicação.",
+        "subtittle": "O portfólio cobre brevemente as minhas habilidades com programação e arquitetura. A arquitetura visa o melhor desempenho com o menor custo, pois não se trata de uma aplicação que requer alta disponibilidade. No entanto, outras tecnologias (como kubernets) devem ser usadas para casos que necessitam de escalabilidade.",
+        "infra": {
+            "purple_text": "Infraestrutura",
+            "tittle": "AWS | Terraform",
+            "text": "Ambiente cloud-native AWS criado com IaC (Terraform). A arquitetura tem apenas uma instância EC2 com todos os serviços. Embora essa arquitetura não seja ideal em termos de escalabilidade e disponibilidade, tem praticamente custo zero e cumpre o proposito de um portfólio.",
+            "first_check": "Could-native",
+            "second_check": "IaC",
+            "third_check": "Praticamente gratuito"
+        },
+        "frontend": {
+            "purple_text": "Frontend",
+            "tittle": "React | Next.js",
+            "text": "Aplicação responsiva, de desing moderno e alto desempenho. Foi utilizando i18n para internacionalização do portfolio e SonarCloud para o quality gate. ",
+            "first_check": "CI/CD com Quality gate",
+            "second_check": "Internalization (EN | PT)",
+            "third_check": "Responsividade"
+        },
+        "backend": {
+            "purple_text": "Backend",
+            "tittle": "NodeJS | RestAPI",
+            "text": "API com autenticação e funcionalidades simples para demonstração de código, uso e controle de acesso. Foi utilizando SonarCloud para o quality gate e Jest para os testes unitários e Swagger para documentação.",
+            "first_check": "CI/CD com Quality gate e testes", 
+            "second_check": "Documentação",
+            "third_check": "Node + Express + MongoDB"
+        }
     }
 }
